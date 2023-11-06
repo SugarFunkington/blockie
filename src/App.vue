@@ -1,5 +1,5 @@
 <template>
-  <div class="app-wrapper">
+  <div class="app-wrapper bg-light-200 mx-auto border border-solid border-light-300 rounded-2xl">
     <ScoreCounter />
     <BlockieBoard />
   </div>
@@ -20,15 +20,11 @@ export default {
 
 <style lang="scss">
 body {
-  background-color:var(--main-bg);
   font-family:var(--font-family);
 }
 
 .app-wrapper {
   max-width: 375px;
   height: 844px;
-  margin:auto;
-  border:1px solid var(--off-white-3);
-  border-radius:15px;
 }
 </style>

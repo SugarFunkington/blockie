@@ -1,5 +1,5 @@
 <template>
-    <div class="score-wrapper">
+    <div class="text-gray-900 font-semibold float-right m-6 text-4xl">
         <h2>{{  scoreCount }}</h2>
     </div>
 </template>
@@ -14,15 +14,3 @@ export default {
     }
 }
 </script>
-
-<style scoped>
-h2 {
-    font-family: var(--font-family);
-    font-size:2.25rem;
-    float:right;
-}
-
-.score-wrapper {
-    margin-right:24px;
-}
-</style>

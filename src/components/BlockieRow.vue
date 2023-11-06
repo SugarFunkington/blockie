@@ -1,5 +1,5 @@
 <template>
-    <div class="row">
+    <div class="flex w-full justify-between">
         <BlockiePiece v-for="n in 5"/>
     </div>
 </template>
@@ -14,11 +14,3 @@ export default {
     }
 }
 </script>
-
-<style lang="scss" scoped>
-.row {
-    display:flex;
-    gap: 10px;
-    width:100%;
-}
-</style>

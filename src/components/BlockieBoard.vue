@@ -1,5 +1,5 @@
 <template>
-    <div class="board">
+    <div class="mx-auto w-full max-w-xs flex flex-col gap-3">
         <BlockieRow v-for="n in 6"/>
     </div>
 </template>
@@ -14,13 +14,3 @@ export default {
     }
 }
 </script>
-
-<style>
-.board {
-    margin:auto;
-    width:340px;
-    display:flex;
-    flex-direction: column;
-    gap: 10px;
-}
-</style>
